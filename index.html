@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background:url('img/bg.jpg'); 
+        font-family: 'Baloo Tamma 2', cursive;
+    }
+    .left{
+        display: inline;
+        /* border: 2px solid red; */
+        color: white;
+        position: absolute;
+        left: 38px;
+        top: 18px
+    }
+    .left img{
+        width: 55px;
+    }
+    .left div{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1px;
+        font-family: 'Baloo Tamma 2', cursive;
+
+    }
+    .mid{
+        border: 5px solid green;
+        border-radius: 20px;
+        color: white;
+        display: block;
+        width: 36%;
+        margin: 18px auto;
+    }
+    .right{
+        /* border: 2px solid yellow; */
+        color: white;
+        display: inline;
+        position: absolute;
+        right: 38px;
+        top: 18px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+     text-decoration: none;
+        padding: 56px 12px;
+
+    }  .navbar li a:hover, .navbar li a.active{
+        color: rgb(120, 115, 115);
+         text-decoration: undreline;
+        
+
+    }
+    .btn{
+        margin: 0px 8px;
+        background-color: black;
+        color: white;
+        padding: 4px 13px;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+         font-family: 'Baloo Tamma 2', cursive;
+    }
+    .btn:hover{
+        background-color: rgb(76, 74, 74);
+    }
+    .container{
+
+        margin: 86px 45px;
+        padding: 56;
+        width: 32%;
+        border-radius: 22px;
+        text-emphasis-color: white;
+    }
+    .form-group input{
+        font-family: 'Baloo Tamma 2', cursive;
+        text-align: center;
+        display: block;
+        border: 2px solid black;
+        width: 378px;
+        padding: 1px;
+        margin: 11px auto;
+     border-radius: 8px;
+        font-size: 15px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        width: 44%;
+    }
+    .navbb img{
+        /* position: absolute;
+    top: 592px;
+    
+    left: 30px;
+    display: flex;
+    align-items: center;
+    margin: 3px 3px;
+    padding: 3px 3px;
+    width: 19px; */
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/h.jpg"> 
+            <div>HARSH FITNESS</div>
+        </div>
+        <div class="mid">
+         <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        </div>
+        <div class="right"> 
+            <button class="btn">Contact Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <!-- <div class="down">
+            <ul class="navbb">
+                <li><a href="#"><img src="img/d.png"></a></li>
+                <li><a href="#"><img src="img/hhhh.jpg"></a></li> 
+                <li><a href="#"><img src="img/images.png"></a></li>
+
+            </ul> -->
+
+        </div>
+    </header>
+    <div class="container">
+        <h1 style="color:white;">MAKE EVERY WORKOUT COUNT</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button>Submit</button>
+
+
+        </form>
+    </div>
+</body>
+</html>
